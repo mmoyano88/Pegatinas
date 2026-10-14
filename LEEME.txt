@@ -1,0 +1,21 @@
+PEGATINAS — PROTOTIPO 0.1
+
+Qué funciona ahora:
+- Menú horizontal con 12 juegos y tarjetas grandes.
+- Sonido sencillo activado inicialmente y botón visible para silenciar.
+- Zona para adultos abriendo la casita con una pulsación larga.
+- Juego Dibujar: dibujar con el dedo, colores, tres grosores, borrador, deshacer, colocar pegatinas y guardar como PNG.
+- Juego Globos: tocar para hacer desaparecer globos.
+- Juego Jardín: añadir elementos y moverlos por el jardín.
+- Juego Parejas: memoria sencilla de 4 parejas.
+- Los demás juegos muestran una pantalla temporal de preparación.
+- Archivos base de PWA y caché para funcionamiento sin conexión tras una primera carga servida por HTTPS.
+
+IMPORTANTE:
+- Esta es una primera versión de prueba, no una aplicación terminada.
+- El menú usa emojis provisionales. Aún no incluye ilustraciones Kenney.
+- Para probar el modo PWA/offline, publica los archivos en GitHub Pages (HTTPS), abre la web una vez y espera a que termine de cargar. Abrir index.html directamente como archivo local no permite instalar la PWA ni activar el service worker.
+- No se han incluido fotos personales ni recursos externos.
+- Las opciones de la zona adulta son de momento una estructura inicial; todavía no existe una galería de dibujos guardados dentro de la propia app.
+
+Para actualizar la web de GitHub Pages, sube los archivos y carpetas manteniendo esta estructura. No borres el contenido del repositorio sin hacer antes una copia.

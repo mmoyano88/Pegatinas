@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#8bd7f5">
+  <meta name="description" content="Pegatinas: juegos creativos para peques.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>Pegatinas</title>
+</head>
+<body>
+  <main id="app">
+    <header class="topbar">
+      <button id="homeButton" class="icon-button home-button" aria-label="Volver al menú" title="Menú">🏠</button>
+      <div class="brand"><span class="brand-star">✦</span><span>Pegatinas</span><span class="brand-star">✦</span></div>
+      <button id="soundButton" class="icon-button sound-button" aria-label="Silenciar sonidos" title="Sonido activado">🔊</button>
+    </header>
+    <section id="menuScreen" class="screen menu-screen" aria-label="Menú de juegos">
+      <div class="welcome"><h1>¿A qué jugamos?</h1><p>¡Elige tu juego favorito!</p></div>
+      <div class="scroll-hint hint-left" aria-hidden="true">‹</div>
+      <div id="gamesGrid" class="games-grid" tabindex="0" aria-label="Juegos. Desliza hacia los lados para verlos todos"></div>
+      <div class="scroll-hint hint-right" aria-hidden="true">›</div>
+      <div class="scroll-caption">Desliza para descubrir más juegos <span>➜</span></div>
+    </section>
+    <section id="gameScreen" class="screen game-screen hidden" aria-live="polite"></section>
+    <section id="adultScreen" class="screen adult-screen hidden">
+      <div class="adult-card">
+        <div class="adult-heading"><span>🧑‍🧑‍🧒</span><div><h1>Zona para adultos</h1><p>Las creaciones y preferencias de Pegatinas.</p></div></div>
+        <div class="adult-options">
+          <button class="adult-option" data-adult="drawings"><span>🖼️</span><b>Mis dibujos</b><small>Las imágenes se guardan en este dispositivo.</small></button>
+          <button class="adult-option" data-adult="photos"><span>🧩</span><b>Mis fotos y puzles</b><small>Preparado para añadir fotos más adelante.</small></button>
+          <button class="adult-option" data-adult="coloring"><span>🖍️</span><b>Dibujos para colorear</b><small>Preparado para ampliar la colección.</small></button>
+          <button class="adult-option" data-adult="content"><span>🎨</span><b>Contenido de la app</b><small>Las ilustraciones se podrán ampliar mediante el catálogo.</small></button>
+        </div>
+        <div id="adultMessage" class="adult-message">Consejo: mantén pulsada la casita para volver a esta zona.</div>
+        <button id="adultBack" class="primary-button">Volver al menú infantil</button>
+      </div>
+    </section>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

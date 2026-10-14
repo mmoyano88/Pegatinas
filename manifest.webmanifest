@@ -1,0 +1,13 @@
+{
+  "name": "Pegatinas",
+  "short_name": "Pegatinas",
+  "description": "Juegos creativos infantiles sin anuncios.",
+  "lang": "es",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#dff5ff",
+  "theme_color": "#8bd7f5",
+  "icons": []
+}
