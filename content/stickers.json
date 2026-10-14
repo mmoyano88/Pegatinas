@@ -1,0 +1,6 @@
+[
+ {"id":"sun","name":"Sol","symbol":"☀️"},{"id":"rainbow","name":"Arcoíris","symbol":"🌈"},{"id":"flower","name":"Flor","symbol":"🌸"},{"id":"tree","name":"Árbol","symbol":"🌳"},{"id":"cloud","name":"Nube","symbol":"☁️"},{"id":"moon","name":"Luna","symbol":"🌙"},
+ {"id":"dog","name":"Perro","symbol":"🐶"},{"id":"cat","name":"Gato","symbol":"🐱"},{"id":"rabbit","name":"Conejo","symbol":"🐰"},{"id":"bear","name":"Oso","symbol":"🐻"},{"id":"frog","name":"Rana","symbol":"🐸"},{"id":"butterfly","name":"Mariposa","symbol":"🦋"},
+ {"id":"apple","name":"Manzana","symbol":"🍎"},{"id":"banana","name":"Plátano","symbol":"🍌"},{"id":"strawberry","name":"Fresa","symbol":"🍓"},{"id":"carrot","name":"Zanahoria","symbol":"🥕"},{"id":"ball","name":"Pelota","symbol":"⚽"},{"id":"teddy","name":"Peluche","symbol":"🧸"},
+ {"id":"car","name":"Coche","symbol":"🚗"},{"id":"kite","name":"Cometa","symbol":"🪁"},{"id":"smile","name":"Sonrisa","symbol":"😀"},{"id":"heart","name":"Corazón","symbol":"❤️"},{"id":"star","name":"Estrella","symbol":"⭐"},{"id":"gift","name":"Regalo","symbol":"🎁"}
+]
