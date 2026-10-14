@@ -1,0 +1,14 @@
+[
+ {"id":"dibujar","name":"Dibujar","icon":"🖍️","color":"#ffe7d4"},
+ {"id":"colorear","name":"Colorear","icon":"🦊","color":"#fff0b8"},
+ {"id":"laberintos","name":"Laberintos","icon":"🐰","color":"#dff4d5"},
+ {"id":"puzles","name":"Puzles","icon":"🧩","color":"#e7e0ff"},
+ {"id":"parejas","name":"Parejas","icon":"🐻","color":"#ffe0ed"},
+ {"id":"formas","name":"Formas","icon":"🔺","color":"#d8f2ff"},
+ {"id":"jardin","name":"Jardín","icon":"🌷","color":"#e4f5d9"},
+ {"id":"globos","name":"Globos","icon":"🎈","color":"#ffe5d9"},
+ {"id":"animales","name":"Animales","icon":"🐶","color":"#fff0c8"},
+ {"id":"sombras","name":"Sombras","icon":"🐱","color":"#e5e9ff"},
+ {"id":"disfraces","name":"Disfraces","icon":"🎩","color":"#f9dfef"},
+ {"id":"letras","name":"Letras y números","icon":"🔢","color":"#d8f4ec"}
+]
