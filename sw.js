@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pegatinas-v0-1';
+const CACHE_NAME = 'pegatinas-v0-2';
 const CORE_FILES = ['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./content/games.json','./content/stickers.json'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(CORE_FILES)).then(() => self.skipWaiting()));
